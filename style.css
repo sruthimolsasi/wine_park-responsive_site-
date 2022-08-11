@@ -1,0 +1,338 @@
+*{
+    padding: 0%;
+    margin:0%
+   
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header_top
+{
+    background-color: rgb(73, 9, 38);
+    color: white;
+    font-size: 17px;
+   height: 45px;
+   padding-top: 12px;
+   text-align: center;
+   max-width: 100%;
+}
+.whatsapp_logo
+{
+    display: none;
+}
+.header_middle
+{   
+    position:sticky;
+    top: 20px;
+    z-index: 1;
+    padding-top: 20px;
+    justify-content:space-evenly;
+    display: flex;
+    background-color: rgb(243, 246, 248);
+    height:90px
+    
+    
+}
+
+.header_middle2
+{
+    margin-left: -60px;
+}
+.header_middle2 img
+{
+   height: 80%;
+   width: 80%;
+}
+.header_middle3
+{
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+    
+}
+.userlogo ,.cart
+{
+    padding-left: 30px;
+}
+.header_bottom
+{
+   font-size: 15px;
+       
+  
+}
+.navbar-toggler
+{
+    float: right;
+    margin-top: -100px;
+}
+.headline
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.spotlight
+{
+    position: relative;
+    
+}
+.spot_cart
+{
+    position: absolute;
+    max-width: 100%;
+   
+ 
+}
+.gift_button
+{
+    border-color: #601e44;
+    background-color:rgb(109, 14, 87);
+    color: aliceblue;
+    border-radius: 200px;
+    width: 40%
+    
+}
+.carousel-item
+{
+    position: relative;
+   /* background-color: #601e44; */
+   
+}
+.carousal_card
+{
+    position: absolute;
+    float: left;
+     left: 14%;
+     
+}
+.addto_cart
+{
+    position: absolute;
+    top: 90%;
+   left: 30%;
+}
+.gototop
+{
+    position: fixed;
+    top:600px; 
+    left: 95%;
+}
+.fa-circle
+{
+    font-size: 46px;
+    color:#601e44;
+    
+}
+.fa-angle-up
+{
+   font-size: 20px;
+   color: rgb(182, 160, 160);
+   margin-left: -30px;
+   margin-top: 14px;
+   position: absolute;
+   
+   
+}
+.carousel-inner
+{
+    z-index: 3;
+}
+.footer_top
+{
+    background-color: #3a2c34;
+    height: 100px;
+    margin-top: 80px;
+    color: aliceblue;
+    
+   
+}
+.symbal
+{
+    text-align: center;
+    size: 200px;
+    padding: 30px;
+}
+.footer_bottom
+{
+    background-color: rgb(187, 183, 186);
+    height: 400px;
+   
+    
+}
+.row
+{
+    color: rgb(43, 46, 50);
+    position: relative;
+   
+   margin: 0%;
+   
+}
+
+.coloum
+{
+    position: absolute;
+    margin-top: 20px;
+}
+ul
+{
+    list-style-type: none;
+   
+}
+ ul h2{
+    margin-top: 20px;
+}
+.col1
+{
+ margin-left: 150px;
+}
+ul li:hover
+{
+    color: #601e44;
+    cursor: pointer;
+}
+.col2
+{
+margin-left: 350px;
+}
+.col3
+{
+margin-left: 570px;
+
+width: 100PX;
+}
+.about_us
+{
+    margin-left: 800px;
+    padding-top: 80px;
+    font-size: large;
+    font-weight: 3px ;
+}
+.inline_about_us
+{
+    
+   display: none;
+}
+
+
+/* media query  for large*/
+@media (max-width:992px) 
+{
+    .whatsapp_logo
+    {
+        display: inline;
+    }
+    .callus
+    {
+        display: none;
+    }
+    .header_middle2 img
+    {
+        width: 78%;
+        height: 80%;
+        padding-left: 30%;
+    }
+    .footer_hidden
+    {
+        display:none;
+    }
+    .about_us
+   {
+    margin-left: 700px;
+   
+
+
+   }
+
+   .footer_bottom
+   {
+    background-color: rgb(187, 183, 186);
+    height: 70px;
+   
+    
+   }
+   .inline_about_us
+{
+    
+    padding-left: 170px;
+    text-align: center;
+    font-size: 15px;
+    display: inline;
+    cursor: pointer;
+}
+.inline_about_us :hover
+{
+    color: #601e44;
+}
+}
+
+/* media query for mediam */
+@media (max-width:768px)
+{
+   
+    .carousal_card
+    {
+        width:1rem;
+        position: absolute;
+        left: 20px;
+    }
+    .inline_about_us
+   {
+    
+    padding-left: 80px;
+    
+   }
+  .inline_about_us :hover
+  {
+    color: #601e44;
+  }
+    
+        
+      
+}
+/* media query for small */
+@media (max-width:576px)
+{
+    .header_top
+    {
+        font-size: small;
+        max-width: 100%;
+        
+    }
+    .header_middle2 img
+   {
+      height: 50%;
+      width: 70%;
+      margin-left: 10%;
+   }
+
+    .container-fluid
+    {
+       width: 100%;
+       background-color:#601e44 ;
+       color: black;
+    }
+    #searchbar
+    {
+        width: 45%;
+    }
+    .carousal_card
+    {
+        width:1rem;
+        position: absolute;
+        left: 70px;
+    }
+    .inline_about_us
+    {
+     
+     padding-left: 30px;
+     font-size:12px;
+     color: aliceblue;
+     
+    }
+   .inline_about_us :hover
+   {
+     color: #601e44;
+   }
+   
+    
+}
